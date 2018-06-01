@@ -1,2 +1,32 @@
-*.class
+#Do not version the following generated files. Knabe 2018-04-15
+
 *.log
+
+#SBT specific, target also in subdirectories:
+/project/project
+project/boot/
+project/plugins/project/
+target/
+
+.cache
+.cache-main
+.cache-tests
+.history
+.lib/
+dist/*
+lib_managed/
+src_managed/
+
+# IntelliJ IDEA specific:
+/*.iml
+/.idea/
+
+# Eclipse specific:
+.project
+.classpath
+.prefs
+.settings
+/bin/
+# Scala-IDE specific:
+.scala_dependencies
+.worksheet
